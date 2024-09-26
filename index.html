@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet HTML CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#acceuil">Acceuil</a></li>
+                <li><a href="#apropos">A propos</a></li>
+                <li><a href="#nosServices">Nos Services</a></li>
+                <li><a href="#contactezNous">Contactez Nous</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <h1>Bienvenue a l'hotel Nassim</h1>
+        <p>Votre destination de reve pour des vacances inoubliables</p>
+    </div>
+    <section id="apropos">
+        <h2>A propos</h2>
+        <div class="AboutContainer">
+            <div class="AboutImages">
+                <img src="assets\pexels-pixabay-261102.jpg" alt="Image" >
+            </div>
+            <div class="AboutText">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis culpa quod quidem. Iure corrupti dolore maiores eaque enim impedit velit quidem iste explicabo? Minima eius nulla pariatur odit maxime nobis.</p>
+            </div>
+        </div>
+    </section>
+    <section id="nosServices">
+        <h2>Nos Services</h2>
+        <div class="NosServicesContainer">
+            <div class="NosServicesText">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ullam? Commodi voluptatem nulla, culpa ullam odit est obcaecati! Eveniet delectus fuga eligendi similique excepturi perspiciatis sit architecto porro, repellendus esse beatae alias quis! Magnam necessitatibus officia enim quaerat at? Quisquam.</p>
+            </div>
+            <div class="NosServicesImages">
+                <img src="assets/nosServicesImg.jpg" alt="Image Services">
+            </div>
+        </div>
+    </section>
+    <section id="contactezNous">
+        <h2>Contactez Nous</h2>
+        <form action="">
+            <label for="Nom-Complet">Nom Complet: </label>
+            <input type="text" required id="Nom-Complet" name="Nom-Complet">
+            <label for="Email">Email: </label>
+            <input type="email" required id="Email" name="Email">
+            <label for="NumTel">Numero de Telephone: </label>
+            <input type="tel" required id="NumTel" name="NumTel">
+            <label for="Password">Mot de passe: </label>
+            <input type="password" required id="Password" name="Password">
+            <label for="Description">Description: </label>
+            <textarea name="Description" id="Description" required cols="50" rows="4"></textarea>
+            <div class="sexe">
+            <label for="Sexe">Sexe: </label>
+            <label for="Homme">Homme</label>
+            <input type="radio" value="homme" id="Homme" name="Sexe">
+            <label for="Femme">Femme</label>
+            <input type="radio" value="femme" id="Femme" name="Sexe">
+            </div>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+    <footer>
+        &copy;2024 Hotel de Nassim
+    </footer>
+</body>
+</html>
